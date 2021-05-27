@@ -1,0 +1,10 @@
+<p>listaescritores works!</p>
+
+ <div class="escritores">
+    <div class="escritor" *ngFor="let escri of arrescritores">
+        <H3>{{escri.nombre}} {{escri.apellidos}}</H3>
+<!-- //para traer una variable dentro de una propiedad en js debemos usar [] -->
+        <img [src]="escri.imagen" alt="">
+        <H5>{{escri.pais}}</H5>
+    </div>
+</div> 
