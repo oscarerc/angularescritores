@@ -1,0 +1,13 @@
+.libros{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.libro  {
+    width: 140px;
+   
+}
+.libro img{
+    width: 80px;
+    height: 80px;
+}

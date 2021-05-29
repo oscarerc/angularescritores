@@ -1,0 +1,7 @@
+<p>listalibros autor</p>
+<div class="libros">
+    <div class="libro" *ngFor="let lib of libross">
+        <img [src]="lib.imagen" alt="">
+        <p>{{lib.titulo}}</p>
+    </div>
+</div>
